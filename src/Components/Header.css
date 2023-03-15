@@ -1,0 +1,9 @@
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-section>p{
+    font-size: 2rem;
+    font-weight: bolder;
+}

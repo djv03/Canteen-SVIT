@@ -1,0 +1,15 @@
+.searchbar{
+    display: flex;
+    justify-content: center;
+
+}
+.searchbar>input{
+    width: 50vw;
+}
+.searchbar>button{
+    margin: 3px;
+    background-color: navy;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    width: 80px;
+}
