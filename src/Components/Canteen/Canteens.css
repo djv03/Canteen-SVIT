@@ -1,0 +1,4 @@
+.canteen-list {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(2, 1fr));
+}

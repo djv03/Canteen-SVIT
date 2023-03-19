@@ -3,6 +3,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.header-section img{
+    height: 70px;
+}
 .header-section>p{
     font-size: 2rem;
     font-weight: bolder;

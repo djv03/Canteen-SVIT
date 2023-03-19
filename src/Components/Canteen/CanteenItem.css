@@ -1,9 +1,0 @@
-.card{
-    border: 2px solid white;
-    border-radius: 7px;
-    width: 40vw;
-    margin: 13px 0px 13px 7px;
-}
-.card-body>button{
-    margin: 13px;   
-}

@@ -1,20 +1,22 @@
-import { useState } from 'react'
-import './App.css';
+import Canteens from "./Components/Canteen/Canteens";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Root from "./pages/Root";
 
-import Header from './Components/Header';
-import Canteen from './Components/Canteen/Canteen';
-import SearchBar from './Components/SearchBar';
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        index: true,
+        element: <Canteens />,
+      },
+    ],
+  },
+]);
 
 function App() {
-
-  return (
-    <div className="App">
-      <Header/>
-      <SearchBar/>
-      <Canteen/>
-
-    </div>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
