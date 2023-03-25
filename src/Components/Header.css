@@ -6,8 +6,9 @@
 
 .header-section img{
     height: 70px;
+    margin:10px 0
 }
 .header-section>p{
-    font-size: 2rem;
+    font-size: 3.2rem;
     font-weight: bolder;
 }

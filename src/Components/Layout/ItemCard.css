@@ -1,0 +1,16 @@
+.item-card {
+    display: flex;
+}
+
+.item-card >  img {
+    height: 2rem;
+}
+
+.item-card h3 {
+}
+
+.item-card h2 {
+}
+
+.item-card p {
+}

@@ -1,8 +1,10 @@
+import Header from "../Components/Header";
+
 const ErrorPage = () => {
   let message = "Somrthing went wrong";
   return (
     <>
-      <Headers />
+      <Header />
       <div style={{ textAlign: "Center" }}>{message}</div>
     </>
   );
