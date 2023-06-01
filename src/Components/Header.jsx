@@ -1,17 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import Logo from '../assets/vite.svg';
+import SvitLogo from "../assets/svit.png";
 
-import './Header.css'
+import "./Header.css";
 
 function Header() {
   return (
-    <div className='header-section'>
-        <img src={Logo} alt="logo" />
-        <p>Kanteen</p>
-      
+    <div className="header-section">
+      <img src={SvitLogo} alt="logo" />
+      <p> Canteens Menu</p>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

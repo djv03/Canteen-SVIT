@@ -1,0 +1,14 @@
+.canteen-list {
+  display: grid;
+  /* grid-template-columns: repeat(1, 1fr); */
+  /* grid-template-columns: repeat(1, minmax(2, 1fr)); */
+}
+
+.canteen-list a {
+  text-decoration: none;
+  color: initial;
+}
+
+.canteen-list a:active {
+  /* scale: 1.5; */
+}
